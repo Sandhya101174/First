@@ -1,10 +1,18 @@
 package com.java.tutorial;
 
 public class HelloWorldMain {
-
+    int a=40;
+    int b=60;
+    int c;
+    public void  Add()
+    {
+    	int c=a+b;
+    	
+    }
+    
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-System.out.println("While creating class we seleced public static void main");
-	}
 
+		System.out.println("Addition of Two Number" );
+		
+	}
 }
